@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECA2018A2684F0090031419B /* Events.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECA201792684F0070031419B /* Events.xcdatamodeld */; };
+		ECA2018B2684F0090031419B /* Events.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECA201792684F0070031419B /* Events.xcdatamodeld */; };
+		ECA2018C2684F0090031419B /* EventsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA2017B2684F0070031419B /* EventsApp.swift */; };
+		ECA2018D2684F0090031419B /* EventsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA2017B2684F0070031419B /* EventsApp.swift */; };
+		ECA2018E2684F0090031419B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA2017C2684F0070031419B /* ContentView.swift */; };
+		ECA2018F2684F0090031419B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA2017C2684F0070031419B /* ContentView.swift */; };
+		ECA201902684F0090031419B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA2017D2684F0070031419B /* Persistence.swift */; };
+		ECA201912684F0090031419B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA2017D2684F0070031419B /* Persistence.swift */; };
+		ECA201922684F0090031419B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA2017E2684F0090031419B /* Assets.xcassets */; };
+		ECA201932684F0090031419B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA2017E2684F0090031419B /* Assets.xcassets */; };
+		ECA2019E2684F0FA0031419B /* SampleCode.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = ECA2019D2684F0FA0031419B /* SampleCode.xcconfig */; };
+		ECA2019F2684F0FA0031419B /* SampleCode.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = ECA2019D2684F0FA0031419B /* SampleCode.xcconfig */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ECA2017A2684F0070031419B /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		ECA2017B2684F0070031419B /* EventsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsApp.swift; sourceTree = "<group>"; };
+		ECA2017C2684F0070031419B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ECA2017D2684F0070031419B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		ECA2017E2684F0090031419B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECA201832684F0090031419B /* Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Events.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA201892684F0090031419B /* Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Events.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA2019D2684F0FA0031419B /* SampleCode.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = SampleCode.xcconfig; sourceTree = "<group>"; };
+		ECA201A12684F2EF0031419B /* Screenshot 2021-06-24 at 18.05.24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2021-06-24 at 18.05.24.png"; sourceTree = "<group>"; };
+		ECA201A22684F2FD0031419B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECA201802684F0090031419B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA201862684F0090031419B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECA201732684F0070031419B = {
+			isa = PBXGroup;
+			children = (
+				ECA201A22684F2FD0031419B /* README.md */,
+				ECA201A02684F2EF0031419B /* Screenshots */,
+				ECA2019C2684F0FA0031419B /* Configuration */,
+				ECA201782684F0070031419B /* Shared */,
+				ECA201842684F0090031419B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECA201782684F0070031419B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				ECA2017B2684F0070031419B /* EventsApp.swift */,
+				ECA2017C2684F0070031419B /* ContentView.swift */,
+				ECA2017D2684F0070031419B /* Persistence.swift */,
+				ECA2017E2684F0090031419B /* Assets.xcassets */,
+				ECA201792684F0070031419B /* Events.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		ECA201842684F0090031419B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECA201832684F0090031419B /* Events.app */,
+				ECA201892684F0090031419B /* Events.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECA2019C2684F0FA0031419B /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				ECA2019D2684F0FA0031419B /* SampleCode.xcconfig */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		ECA201A02684F2EF0031419B /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				ECA201A12684F2EF0031419B /* Screenshot 2021-06-24 at 18.05.24.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECA201822684F0090031419B /* Events (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA201962684F0090031419B /* Build configuration list for PBXNativeTarget "Events (iOS)" */;
+			buildPhases = (
+				ECA2017F2684F0090031419B /* Sources */,
+				ECA201802684F0090031419B /* Frameworks */,
+				ECA201812684F0090031419B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Events (iOS)";
+			productName = "Events (iOS)";
+			productReference = ECA201832684F0090031419B /* Events.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECA201882684F0090031419B /* Events (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA201992684F0090031419B /* Build configuration list for PBXNativeTarget "Events (macOS)" */;
+			buildPhases = (
+				ECA201852684F0090031419B /* Sources */,
+				ECA201862684F0090031419B /* Frameworks */,
+				ECA201872684F0090031419B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Events (macOS)";
+			productName = "Events (macOS)";
+			productReference = ECA201892684F0090031419B /* Events.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECA201742684F0070031419B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					ECA201822684F0090031419B = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					ECA201882684F0090031419B = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = ECA201772684F0070031419B /* Build configuration list for PBXProject "Events" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECA201732684F0070031419B;
+			productRefGroup = ECA201842684F0090031419B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECA201822684F0090031419B /* Events (iOS) */,
+				ECA201882684F0090031419B /* Events (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECA201812684F0090031419B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA201922684F0090031419B /* Assets.xcassets in Resources */,
+				ECA2019E2684F0FA0031419B /* SampleCode.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA201872684F0090031419B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA201932684F0090031419B /* Assets.xcassets in Resources */,
+				ECA2019F2684F0FA0031419B /* SampleCode.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECA2017F2684F0090031419B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA2018C2684F0090031419B /* EventsApp.swift in Sources */,
+				ECA201902684F0090031419B /* Persistence.swift in Sources */,
+				ECA2018A2684F0090031419B /* Events.xcdatamodeld in Sources */,
+				ECA2018E2684F0090031419B /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA201852684F0090031419B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA2018D2684F0090031419B /* EventsApp.swift in Sources */,
+				ECA201912684F0090031419B /* Persistence.swift in Sources */,
+				ECA2018B2684F0090031419B /* Events.xcdatamodeld in Sources */,
+				ECA2018F2684F0090031419B /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ECA201942684F0090031419B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECA2019D2684F0FA0031419B /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECA201952684F0090031419B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECA2019D2684F0FA0031419B /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ECA201972684F0090031419B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECA2019D2684F0FA0031419B /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HUK6B7UUU2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.malcolmhall.Events${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = Events;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECA201982684F0090031419B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECA2019D2684F0FA0031419B /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HUK6B7UUU2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.malcolmhall.Events${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = Events;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECA2019A2684F0090031419B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECA2019D2684F0FA0031419B /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.malcolmhall.Events${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = Events;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ECA2019B2684F0090031419B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECA2019D2684F0FA0031419B /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.malcolmhall.Events${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = Events;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECA201772684F0070031419B /* Build configuration list for PBXProject "Events" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA201942684F0090031419B /* Debug */,
+				ECA201952684F0090031419B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA201962684F0090031419B /* Build configuration list for PBXNativeTarget "Events (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA201972684F0090031419B /* Debug */,
+				ECA201982684F0090031419B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA201992684F0090031419B /* Build configuration list for PBXNativeTarget "Events (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA2019A2684F0090031419B /* Debug */,
+				ECA2019B2684F0090031419B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ECA201792684F0070031419B /* Events.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ECA2017A2684F0070031419B /* Shared.xcdatamodel */,
+			);
+			currentVersion = ECA2017A2684F0070031419B /* Shared.xcdatamodel */;
+			path = Events.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ECA201742684F0070031419B /* Project object */;
+}
