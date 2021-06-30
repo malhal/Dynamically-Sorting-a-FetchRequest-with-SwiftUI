@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct EventsApp: App {
+struct SortedEventsApp: App {
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {

@@ -3,32 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ECA2018A2684F0090031419B /* Events.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECA201792684F0070031419B /* Events.xcdatamodeld */; };
-		ECA2018B2684F0090031419B /* Events.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECA201792684F0070031419B /* Events.xcdatamodeld */; };
-		ECA2018C2684F0090031419B /* EventsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA2017B2684F0070031419B /* EventsApp.swift */; };
-		ECA2018D2684F0090031419B /* EventsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA2017B2684F0070031419B /* EventsApp.swift */; };
+		ECA2018A2684F0090031419B /* SortedEvents.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECA201792684F0070031419B /* SortedEvents.xcdatamodeld */; };
+		ECA2018B2684F0090031419B /* SortedEvents.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECA201792684F0070031419B /* SortedEvents.xcdatamodeld */; };
+		ECA2018C2684F0090031419B /* SortedEventsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA2017B2684F0070031419B /* SortedEventsApp.swift */; };
+		ECA2018D2684F0090031419B /* SortedEventsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA2017B2684F0070031419B /* SortedEventsApp.swift */; };
 		ECA2018E2684F0090031419B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA2017C2684F0070031419B /* ContentView.swift */; };
 		ECA2018F2684F0090031419B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA2017C2684F0070031419B /* ContentView.swift */; };
 		ECA201902684F0090031419B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA2017D2684F0070031419B /* Persistence.swift */; };
 		ECA201912684F0090031419B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA2017D2684F0070031419B /* Persistence.swift */; };
 		ECA201922684F0090031419B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA2017E2684F0090031419B /* Assets.xcassets */; };
 		ECA201932684F0090031419B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA2017E2684F0090031419B /* Assets.xcassets */; };
-		ECA2019E2684F0FA0031419B /* SampleCode.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = ECA2019D2684F0FA0031419B /* SampleCode.xcconfig */; };
-		ECA2019F2684F0FA0031419B /* SampleCode.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = ECA2019D2684F0FA0031419B /* SampleCode.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ECA2017A2684F0070031419B /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
-		ECA2017B2684F0070031419B /* EventsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsApp.swift; sourceTree = "<group>"; };
+		ECA2017B2684F0070031419B /* SortedEventsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedEventsApp.swift; sourceTree = "<group>"; };
 		ECA2017C2684F0070031419B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ECA2017D2684F0070031419B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		ECA2017E2684F0090031419B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ECA201832684F0090031419B /* Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Events.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECA201892684F0090031419B /* Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Events.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA201832684F0090031419B /* SortedEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SortedEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA201892684F0090031419B /* SortedEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SortedEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECA2019D2684F0FA0031419B /* SampleCode.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = SampleCode.xcconfig; sourceTree = "<group>"; };
 		ECA201A12684F2EF0031419B /* Screenshot 2021-06-24 at 18.05.24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2021-06-24 at 18.05.24.png"; sourceTree = "<group>"; };
 		ECA201A22684F2FD0031419B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -66,11 +64,11 @@
 		ECA201782684F0070031419B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				ECA2017B2684F0070031419B /* EventsApp.swift */,
+				ECA2017B2684F0070031419B /* SortedEventsApp.swift */,
 				ECA2017C2684F0070031419B /* ContentView.swift */,
 				ECA2017D2684F0070031419B /* Persistence.swift */,
 				ECA2017E2684F0090031419B /* Assets.xcassets */,
-				ECA201792684F0070031419B /* Events.xcdatamodeld */,
+				ECA201792684F0070031419B /* SortedEvents.xcdatamodeld */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -78,8 +76,8 @@
 		ECA201842684F0090031419B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ECA201832684F0090031419B /* Events.app */,
-				ECA201892684F0090031419B /* Events.app */,
+				ECA201832684F0090031419B /* SortedEvents.app */,
+				ECA201892684F0090031419B /* SortedEvents.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,9 +101,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ECA201822684F0090031419B /* Events (iOS) */ = {
+		ECA201822684F0090031419B /* SortedEvents (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ECA201962684F0090031419B /* Build configuration list for PBXNativeTarget "Events (iOS)" */;
+			buildConfigurationList = ECA201962684F0090031419B /* Build configuration list for PBXNativeTarget "SortedEvents (iOS)" */;
 			buildPhases = (
 				ECA2017F2684F0090031419B /* Sources */,
 				ECA201802684F0090031419B /* Frameworks */,
@@ -115,14 +113,14 @@
 			);
 			dependencies = (
 			);
-			name = "Events (iOS)";
+			name = "SortedEvents (iOS)";
 			productName = "Events (iOS)";
-			productReference = ECA201832684F0090031419B /* Events.app */;
+			productReference = ECA201832684F0090031419B /* SortedEvents.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ECA201882684F0090031419B /* Events (macOS) */ = {
+		ECA201882684F0090031419B /* SortedEvents (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ECA201992684F0090031419B /* Build configuration list for PBXNativeTarget "Events (macOS)" */;
+			buildConfigurationList = ECA201992684F0090031419B /* Build configuration list for PBXNativeTarget "SortedEvents (macOS)" */;
 			buildPhases = (
 				ECA201852684F0090031419B /* Sources */,
 				ECA201862684F0090031419B /* Frameworks */,
@@ -132,9 +130,9 @@
 			);
 			dependencies = (
 			);
-			name = "Events (macOS)";
+			name = "SortedEvents (macOS)";
 			productName = "Events (macOS)";
-			productReference = ECA201892684F0090031419B /* Events.app */;
+			productReference = ECA201892684F0090031419B /* SortedEvents.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -155,8 +153,8 @@
 					};
 				};
 			};
-			buildConfigurationList = ECA201772684F0070031419B /* Build configuration list for PBXProject "Events" */;
-			compatibilityVersion = "Xcode 13.0";
+			buildConfigurationList = ECA201772684F0070031419B /* Build configuration list for PBXProject "SortedEvents" */;
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -168,8 +166,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ECA201822684F0090031419B /* Events (iOS) */,
-				ECA201882684F0090031419B /* Events (macOS) */,
+				ECA201822684F0090031419B /* SortedEvents (iOS) */,
+				ECA201882684F0090031419B /* SortedEvents (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -180,7 +178,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECA201922684F0090031419B /* Assets.xcassets in Resources */,
-				ECA2019E2684F0FA0031419B /* SampleCode.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,7 +186,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECA201932684F0090031419B /* Assets.xcassets in Resources */,
-				ECA2019F2684F0FA0031419B /* SampleCode.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +196,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECA2018C2684F0090031419B /* EventsApp.swift in Sources */,
+				ECA2018C2684F0090031419B /* SortedEventsApp.swift in Sources */,
 				ECA201902684F0090031419B /* Persistence.swift in Sources */,
-				ECA2018A2684F0090031419B /* Events.xcdatamodeld in Sources */,
+				ECA2018A2684F0090031419B /* SortedEvents.xcdatamodeld in Sources */,
 				ECA2018E2684F0090031419B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,9 +207,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECA2018D2684F0090031419B /* EventsApp.swift in Sources */,
+				ECA2018D2684F0090031419B /* SortedEventsApp.swift in Sources */,
 				ECA201912684F0090031419B /* Persistence.swift in Sources */,
-				ECA2018B2684F0090031419B /* Events.xcdatamodeld in Sources */,
+				ECA2018B2684F0090031419B /* SortedEvents.xcdatamodeld in Sources */,
 				ECA2018F2684F0090031419B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,9 +338,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HUK6B7UUU2;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleExecutable = SortedEvents;
+				INFOPLIST_KEY_CFBundleName = SortedEvents;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -355,8 +354,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.malcolmhall.Events${SAMPLE_CODE_DISAMBIGUATOR}";
-				PRODUCT_NAME = Events;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.malcolmhall.SortedEvents${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = SortedEvents;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -372,9 +371,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HUK6B7UUU2;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleExecutable = SortedEvents;
+				INFOPLIST_KEY_CFBundleName = SortedEvents;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -385,8 +387,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.malcolmhall.Events${SAMPLE_CODE_DISAMBIGUATOR}";
-				PRODUCT_NAME = Events;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.malcolmhall.SortedEvents${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = SortedEvents;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -404,18 +406,22 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleExecutable = SortedEvents;
+				INFOPLIST_KEY_CFBundleName = SortedEvents;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.malcolmhall.Events${SAMPLE_CODE_DISAMBIGUATOR}";
-				PRODUCT_NAME = Events;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.malcolmhall.SortedEvents${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = SortedEvents;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -431,18 +437,22 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleExecutable = SortedEvents;
+				INFOPLIST_KEY_CFBundleName = SortedEvents;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.malcolmhall.Events${SAMPLE_CODE_DISAMBIGUATOR}";
-				PRODUCT_NAME = Events;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.malcolmhall.SortedEvents${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = SortedEvents;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -452,7 +462,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ECA201772684F0070031419B /* Build configuration list for PBXProject "Events" */ = {
+		ECA201772684F0070031419B /* Build configuration list for PBXProject "SortedEvents" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ECA201942684F0090031419B /* Debug */,
@@ -461,7 +471,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ECA201962684F0090031419B /* Build configuration list for PBXNativeTarget "Events (iOS)" */ = {
+		ECA201962684F0090031419B /* Build configuration list for PBXNativeTarget "SortedEvents (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ECA201972684F0090031419B /* Debug */,
@@ -470,7 +480,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ECA201992684F0090031419B /* Build configuration list for PBXNativeTarget "Events (macOS)" */ = {
+		ECA201992684F0090031419B /* Build configuration list for PBXNativeTarget "SortedEvents (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ECA2019A2684F0090031419B /* Debug */,
@@ -482,13 +492,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		ECA201792684F0070031419B /* Events.xcdatamodeld */ = {
+		ECA201792684F0070031419B /* SortedEvents.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				ECA2017A2684F0070031419B /* Shared.xcdatamodel */,
 			);
 			currentVersion = ECA2017A2684F0070031419B /* Shared.xcdatamodel */;
-			path = Events.xcdatamodeld;
+			path = SortedEvents.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

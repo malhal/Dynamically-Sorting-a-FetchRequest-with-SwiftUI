@@ -16,7 +16,7 @@ struct ContentView: View {
         NavigationView {
             FetchedItems(sortAscending: sortAscending)
                 .toolbar {
-                    ToolbarItem(placement: .navigationBarTrailing) {
+                    ToolbarItem(placement: .automatic) {
                         Menu {
                             Button(action: { sortAscending.toggle() } ) {
                                 Label("Date", systemImage: sortAscending ? "chevron.down" : "chevron.up")
